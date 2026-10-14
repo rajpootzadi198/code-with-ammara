@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    
+    <header class="header">
+    <nav class="navbar container">
+        <a href="#home" class="logo">
+            <span class="logo-icon"><i class="fas fa-code"></i></span>
+            Code <span>With</span> Ammara
+        </a>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact" class="contact-link">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <span class="tag"> <i class="fas fa-code"></i> YOUR CODING JOURNEY STARTS HERE </span>
+
+                <h1>Learn to Code,<br>
+                    <span class="gradient-text">Build Your Future.</span>
+                </h1>
+
+                <p>
+                    Welcome to Code With Ammara! Learn web development
+                    step by step, create amazing projects, and turn your
+                    ideas into beautiful websites.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#courses" class="btn btn-primary">Explore Courses <i class="fas fa-arrow-right"></i></a>
+                    <a href="#about" class="btn btn-outline">Discover More</a>
+                </div>
+
+                <div class="stats">
+                    <div><h3>04+</h3><p>Learning Topics</p></div>
+                    <div><h3>100%</h3><p>Creative Learning</p></div>
+                    <div><h3>∞</h3><p>Possibilities</p></div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=85"
+                     alt="Laptop displaying a web development workspace">
+                <div class="floating-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <div><strong>Dream. Code. Create.</strong><small>Start your journey today!</small></div>
+                </div>
+                <div class="code-badge">&lt;/&gt; HTML + CSS</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section courses" id="courses">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-tag">WHAT YOU CAN LEARN</span>
+                <h2>Explore Our <span class="gradient-text">Courses</span></h2>
+                <p>Learn the essential skills of modern web development.</p>
+            </div>
+
+            <div class="course-grid">
+                <article class="course-card">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80" alt="Learning HTML on a laptop">
+                    <div class="course-body">
+                        <i class="fab fa-html5 course-icon html"></i>
+                        <span class="level">BEGINNER</span>
+                        <h3>HTML Fundamentals</h3>
+                        <p>Learn headings, links, images, forms, and website structure.</p>
+                        <a href="#contact" class="course-link">Explore Course <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="CSS web development workspace">
+                    <div class="course-body">
+                        <i class="fab fa-css3-alt course-icon css"></i>
+                        <span class="level">BEGINNER</span>
+                        <h3>CSS Styling</h3>
+                        <p>Design beautiful layouts using colors, spacing, and animations.</p>
+                        <a href="#contact" class="course-link">Explore Course <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=600&q=80" alt="Programming code on a screen">
+                    <div class="course-body">
+                        <i class="fab fa-js course-icon js"></i>
+                        <span class="level">NEXT STEP</span>
+                        <h3>JavaScript Basics</h3>
+                        <p>Learn to create interactive pages and useful website features.</p>
+                        <a href="#contact" class="course-link">Explore Course <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="Technology and teamwork">
+                    <div class="course-body">
+                        <i class="fab fa-bootstrap course-icon bootstrap"></i>
+                        <span class="level">FRAMEWORK</span>
+                        <h3>Bootstrap</h3>
+                        <p>Create responsive websites with reusable design components.</p>
+                        <a href="#contact" class="course-link">Explore Course <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section about" id="about">
+        <div class="container about-grid">
+            <div class="about-visual">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=85" alt="Creative coding workspace">
+                <div class="image-label"><i class="fas fa-code"></i> Learn. Practice. Create.</div>
+            </div>
+
+            <div class="about-text">
+                <span class="section-tag">ABOUT THE WEBSITE</span>
+                <h2>Making Coding <span class="gradient-text">Simple & Fun</span></h2>
+                 <p>Code With Ammara is a learning-focused website designed to make web development easier and more enjoyable for beginners.</p>
+
+                <div class="feature">
+                    <i class="fas fa-circle-check"></i>
+                    <div><h4>Beginner Friendly</h4><p>Learn the fundamentals one step at a time.</p></div>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-circle-check"></i>
+                    <div><h4>Practice Projects</h4><p>Build confidence by creating real website layouts.</p></div>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-circle-check"></i>
+                    <div><h4>Responsive Design</h4><p>Explore designs for mobile, tablet, and desktop.</p></div>
+                </div>
+
+                <a href="#projects" class="btn btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-tag">LEARN BY DOING</span>
+                <h2>Creative <span class="gradient-text">Projects</span></h2>
+                <p>Get inspired and practise your new coding skills.</p>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=700&q=80" alt="Portfolio website design">
+                    <div class="project-body">
+                        <span class="level">HTML + CSS</span>
+                        <h3>Personal Portfolio</h3>
+                        <p>Showcase your skills and creative work.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=700&q=80" alt="Modern website interface">
+                    <div class="project-body">
+                        <span class="level">CSS GRID + FLEXBOX</span>
+                        <h3>Online Store</h3>
+                        <p>Design product cards and a shopping layout.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=700&q=80" alt="Collaborative web development">
+                    <div class="project-body">
+                        <span class="level">RESPONSIVE DESIGN</span>
+                        <h3>Learning Website</h3>
+                        <p>Create a modern educational website.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="contact-box">
+                <div>
+                      <span class="section-tag">LET'S CONNECT</span>
+                    <h2>Ready to Start Your <span class="gradient-text">Coding Journey?</span></h2>
+                    <p>Keep learning, keep practising, and never stop creating.</p>
+                    <a href="mailto:hello@example.com" class="btn btn-primary"><i class="fas fa-envelope"></i> Get in Touch</a>
+                </div>
+                <i class="fas fa-laptop-code contact-art"></i>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer-row">
+        <a href="#home" class="logo"><span class="logo-icon"><i class="fas fa-code"></i></span> Code <span>With</span> Ammara</a>
+        <p>Designed with creativity by Ammara.</p>
+        <div class="social-links">
+            <a href="#home" aria-label="Home"><i class="fas fa-house"></i></a>
+            <a href="mailto:hello@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+    <div class="copyright">© 2026 Code With Ammara. Keep Learning, Keep Creating.</div>
+</footer>
+
+
+</body>
+</html>
